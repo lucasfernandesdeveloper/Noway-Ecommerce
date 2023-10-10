@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-promocoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.promo-frete .text, .promo-card .text, .promo-house .text, .promo-cell .text  {
+    float: right;
+    margin-left: 14px;
+    margin-top: -3px;
+}
+
+.promo-frete i, .promo-card i, .promo-cell i {
+    font-size: 35px;
+}
+
+.promo-frete span, .promo-card span, .promo-house span, .promo-cell span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.promo-frete p, .promo-card p, .promo-house p, .promo-cell p {
+    font-size: 14px;
+}
+
+.promo-house {
+    position: relative;
+}
+
+.promo-house .house {
+    font-size: 35px;
+}
+
+.promo-house .topo-loca {
+    position: absolute;
+    top: -4px;
+    left: 2rem;
+    bottom: 0;
+}
+
