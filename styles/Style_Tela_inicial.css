@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+img{
+    margin-right: 30px;
+}
+
+.container-info{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+    
+.container-info li {
+    margin: 10px;
+    padding: 6px;
+    color: #FFF;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-info a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container-busca {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.container-busca input{
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 10px 10px 10px 23px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.container-pesquisa{
+    position: relative;
+    
+}
+
+.container-pesquisa i{
+    position: absolute;
+    right: 18;
+    top: 10;
+
+}
+
+
+.container-icons{
+    margin-left: 50px;
+    color: white;
+}
+    
+.container-icons i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
