@@ -18,7 +18,7 @@
     margin-right: 20px;
     padding-bottom: 10px;
     position: absolute;
-    top: 50;
+    top: 60;
 }
 
 .container-img img{
@@ -27,4 +27,13 @@
 
 .container-icons{
     color: white;
+    padding-left: 30px;
+   margin: 20px;
+}
+
+hr{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    color: red;
 }
