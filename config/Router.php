@@ -10,7 +10,9 @@ class Router extends RouteSwitch
 
         if ($route === '') {
             $this->home();
-        } else {
+        } 
+        else {
+            $route = substr($route,20,strlen($route));
             $this->$route();
         }
     }
