@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo img{
+    width: 100;
+    margin-left: 10px;
+}
+
+.Titulo h3 {
+    font-family: 'Heebo', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+#Cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Botoes{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(120, 120, 120);
+    outline: 0;
+}
+
+.Botoes:focus{
+    border: 1px solid red;
+}
+
+.Botoes:valid{
+    border: 1px solid black;
+}
+
+::placeholder{
+   color: rgb(150, 150, 150);
+}
+
+.Botoes:not(:placeholder-shown){
+    color: black;
+}
+
+#Ficha{
+    line-height: 80%;
+}
+
+#Registrar{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.linha-com-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;  
+    margin-bottom: 10px; 
+}
+
+.linha-com-texto .linha-horizontal {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: gray;
+    width: 8vh;
+    margin: 10px;
+}
+
+#Google{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#Google i{
+    margin-right: 5px;
+}
+
+.container-link{
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+}
+
+.container-link a{
+    color: blue;
+}
