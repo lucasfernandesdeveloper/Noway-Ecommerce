@@ -77,10 +77,16 @@
     height: 30px;
     margin-bottom: 10px;
     border: 1px solid black;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 20px;
 }
 
-.container-botao-google i{
-    padding: 5px;
+.container-botao-google img{ 
+    width: 25px;
+    margin-right: 15px;  
 }
 .container-link{
     font-size: 13px;
