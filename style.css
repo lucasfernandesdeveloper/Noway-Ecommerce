@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: inline-block;
+    background-color: black;
+    flex-direction: column;
+    height: 100vh;    
+    position: relative;
+    
+}
+
+.container-img span{
+    color: white;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 50;
+}
+
+.container-img img{
+   margin: 50px;
+}
+
+.container-icons{
+    color: white;
+}
