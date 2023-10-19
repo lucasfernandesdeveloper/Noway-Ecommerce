@@ -1,0 +1,51 @@
+@import url(../css/variaveis-padrao.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.logo img {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin: 5.4rem auto;
+    margin-bottom: 5.2rem;
+    margin-top: 5.4rem;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form  input[type=password] { 
+    border: 1px solid var(--cor-principal-preto);
+    border-radius: 8px;
+    padding: 0.8rem 0.3rem;
+    width: 35vh;
+}
+
+form .btn-principal-preto {
+    padding: 0.8rem 0.3rem;
+    width: 35vh;
+}
+
+.politica-privacidade {
+    
+}
