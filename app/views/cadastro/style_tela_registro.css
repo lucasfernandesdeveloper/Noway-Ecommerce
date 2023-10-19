@@ -5,12 +5,12 @@
     font-family: 'inter', sans-serif;
 }
 
-#logo img{
+.logo img{
     width: 100;
     margin-left: 10px;
 }
 
-.Titulo h3 {
+.titulo h3 {
     margin-top: 20px;
     margin-bottom: 15px;
     margin-left: 10px;
@@ -24,7 +24,7 @@ body{
     height: 100vh;
 }
 
-.Botoes{
+.input{
     width: 100%;
     height: 30px;
     border-radius: 5px;
@@ -33,11 +33,11 @@ body{
     outline: 0;
 }
 
-.Botoes:focus{
+.input:focus{
     border: 1px solid red;
 }
 
-.Botoes:valid{
+.input:valid{
     border: 1px solid black;
 }
 
@@ -45,15 +45,15 @@ body{
    color: rgb(150, 150, 150);
 }
 
-.Botoes:not(:placeholder-shown){
+.input:not(:placeholder-shown){
     color: black;
 }
 
-#Ficha{
+.ficha{
     line-height: 80%;
 }
 
-#Registrar{
+.registrar{
     width: 100%;
     height: 30px;
     background-color: black;
@@ -81,7 +81,7 @@ body{
     margin: 10px;
 }
 
-#Google{
+.google{
     width: 100%;
     height: 30px;
     background-color: white;
@@ -96,7 +96,7 @@ body{
     padding: 10px 20px;
 }
 
-#Google img{
+.google img{
     width: 25px;
     margin-right: 15px;
 }
