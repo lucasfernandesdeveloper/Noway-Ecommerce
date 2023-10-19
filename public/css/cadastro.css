@@ -121,7 +121,7 @@ body{
     }
 
     .img-cadastro{
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pexels-andrea-piacquadio-720606.jpg");
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/cadastro/img-1.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
