@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'inter', sans-serif;
 }
 
 #logo img{
@@ -10,13 +11,12 @@
 }
 
 .Titulo h3 {
-    font-family: 'Heebo', sans-serif;
     margin-top: 20px;
     margin-bottom: 15px;
     margin-left: 10px;
 }
 
-#Cadastro{
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,5 +108,31 @@
 }
 
 .container-link a{
-    color: blue;
+    text-decoration: none;
+    color: rgba(34, 34, 255, 0.692);
+}
+
+@media (min-width: 993px){
+    .cadastro{
+        display: flex;
+        box-shadow: 0px 0px 14px 14px rgba(224, 224, 224, 0.532);
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .img-cadastro{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pexels-andrea-piacquadio-720606.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 550px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
 }
