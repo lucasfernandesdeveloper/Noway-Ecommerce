@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body{   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,9 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.container-password {
+    position: relative;
+}
 
 .logo img {
     display: block;
@@ -47,5 +50,22 @@ form .btn-principal-preto {
 }
 
 .politica-privacidade {
-    
+    position: absolute;
+    bottom: 4%;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.politica-privacidade a {
+    text-decoration: none;
+    color: var(--cor-principal-preto);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.politica-privacidade a:hover {
+    text-decoration: underline;
 }
