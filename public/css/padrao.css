@@ -2,15 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --cor-principal-preto: #000;
-    --cor-principal-branco: #fff;
-    --fonte-principal: 'inter';
-  }
+  /*Cores Primárias*/
+    --cor-primaria-preto: #000000;
+    --cor-primaria-cinza: #ACACAC;
+    --cor-primaria-branco: #FFFFFF;
 
+  /*Cores Secundárias*/
+    --cor-secundaria-preto: rgba(0, 0, 0, 0.5);
+    --cor-secundaria-cinza: rgba(172, 172, 172, 0.5);
+    --cor-secundaria-branco: rgba(255, 255, 255, 0.5);
+
+  /*Cores Terciárias*/
+  --cor-terciaria-preto: rgba(0, 0, 0, 0.1);
+  --cor-terciaria-cinza: rgba(172, 172, 172, 0.1);
+  --cor-terciaria-branco: rgba(255, 255, 255, 0.1);
+
+  /*Fontes*/
+    --fonte-principal: 'inter';
+}
 
 .btn-principal-preto{
-    color: #fff;
-    border-radius: 8px;
     border: 1px solid #000;
+    border-radius: 8px;
     background: #000;
+    color: #fff;
 }

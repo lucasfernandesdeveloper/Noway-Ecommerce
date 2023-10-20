@@ -1,4 +1,4 @@
-@import url(../css/variaveis-padrao.css);
+@import url(../css/padrao.css);
 
 * {
     margin: 0px;
@@ -8,10 +8,10 @@
 
 body{   
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
     font-family: 'Inter', sans-serif;
 }
 
@@ -25,28 +25,28 @@ body{
     max-width: 180px;
     margin: 5.4rem auto;
     margin-bottom: 5.2rem;
-    margin-top: 5.4rem;
-    
+    margin-top: 5.4rem;   
 }
 
 form {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
 form  input[type=password] { 
-    border: 1px solid var(--cor-principal-preto);
-    border-radius: 8px;
-    padding: 0.8rem 0.3rem;
     width: 35vh;
+    padding: 0.8rem 0.3rem;
+    border: 1px solid var(--cor-primaria-preto);
+    border-radius: 8px;
 }
 
 form .btn-principal-preto {
-    padding: 0.8rem 0.3rem;
     width: 35vh;
+    padding: 0.8rem 0.3rem;
+    margin-top: 20px;
 }
 
 .politica-privacidade {
@@ -55,17 +55,23 @@ form .btn-principal-preto {
 }
 
 .material-symbols-outlined {
-    vertical-align: middle;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .politica-privacidade a {
-    text-decoration: none;
-    color: var(--cor-principal-preto);
     font-size: 0.8rem;
     font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-primaria-preto);
 }
 
 .politica-privacidade a:hover {
     text-decoration: underline;
 }
+
+.politica-privacidade > a > span {
+    font-size: 20px;
+    margin-top: -4px;
+}
+
