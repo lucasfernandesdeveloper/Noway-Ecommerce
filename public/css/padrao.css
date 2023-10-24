@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf') format('.ttf');
+}
+
 :root {
     --cor-principal-preto: #000;
     --cor-principal-branco: #fff;
