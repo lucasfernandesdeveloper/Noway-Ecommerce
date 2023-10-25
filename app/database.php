@@ -1,19 +1,10 @@
 <?php
 
-use Illuminate\Database\Capsule\Manager as Capsule;
+require "bootstrap.php";
 
-$capsule = new Capsule();
+use App\Migrations\Usuario;
 
-$capsule->addConnection([
-    'driver' => 'mysql',
-    'host' => '127.0.0.1',
-    'username' => 'root',
-    'password' => 'root',
-    'database' => 'noway',
-    'charset' => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix' => '',
-
-]);
-
-$capsule->bootEloquent();
+/*
+$usuario = new Usuario();
+$usuario->up();
+*/

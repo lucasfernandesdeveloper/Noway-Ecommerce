@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Usuario;
+
 class App
 {
     protected $controller = 'home';
