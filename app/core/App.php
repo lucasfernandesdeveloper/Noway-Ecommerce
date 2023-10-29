@@ -1,26 +1,22 @@
 <?php
 
-use App\Models\Usuario;
-
 class App
 {
-    protected $controller = 'home';
-
+    protected $controller = 'Home';
     protected $method = 'index';
-
     protected $params = [];
 
     public function __construct()
     {
         $url = $this->parseUrl();
 
-        if(file_exists('../app/controllers/'. ucfirst($url[0]) .'Controller.php'))
+        if( isset($url[0]) && file_exists('../app/controllers/'. ucfirst($url[0]) .'Controller.php'))
         {
             $this->controller = $url[0];
             unset($url[0]);
         }
 
-        require_once '../app/controllers/' . ucfirst($this->controller) .'Controller.php';
+        require_once  '../app/controllers/' . ucfirst($this->controller) .'Controller.php';
 
         $this->controller = new $this->controller;
 
@@ -42,6 +38,9 @@ class App
     {
         if(isset($_GET['url'])) {
             return $url = explode('/', filter_var(rtrim($_GET['url'], '/'), FILTER_SANITIZE_URL));
+        }
+        else {
+            return [];
         }
     }
 }

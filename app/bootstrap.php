@@ -1,4 +1,6 @@
 <?php
+/* ---Este é o arquivo de configuração e conexão com o banco de dados--- */
+
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule();
