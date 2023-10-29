@@ -11,10 +11,5 @@ class Home extends Controller
         $this->view('home/index');
     }
 
-    public function create($username = '', $email = ''){
-        User::create([
-            'username' => $username,
-            'email' => $email
-        ]) ;
-    }
+
 }
