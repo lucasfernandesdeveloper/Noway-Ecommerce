@@ -20,17 +20,25 @@
         <h3>Criar uma conta</h3>
     </div>
     <div class="formulario">
-        <form action="" class="ficha">
+        <form action="../cadastro/criar/" class="ficha" method="POST">
             <label for="nome" class="input-flex">
-             <input type="text" id="Nome" name="Nome" placeholder="Nome" class="input" required>
-             <input type="text" id="Sobrenome" name="Nome" placeholder="Sobrenome" class="input" required>
+             <input type="text" id="Nome" name="nome" placeholder="Nome" class="input" required>
+             <input type="text" id="Sobrenome" name="nome" placeholder="Sobrenome" class="input" required>
             </label>
              <input type="email" id="email" name="email" placeholder="Email" class="input" required><br>
              <input type="text" id="cpf" name="cpf" placeholder="CPF" class="input" required>
-             <input type="password" id="Senha" name="Senha" placeholder="Senha" class="input" required><br>
-             <input type="password" id="Confirmarsenha" name="Confirmarsenha" placeholder="Confirmar Senha" class="input" required>
+             <input type="date" id="inputData" name="data_nascimento" placeholder="Data de Nascimento" class="input" required>
+             <select name="sexo" id="inputSexo">
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+                <option value="NI">Prefiro não informar</option>
+                </select><br>
+             <input type="password" id="Senha" name="senha" placeholder="Senha" class="input" required>
+            
+             <input type="password" id="Confirmarsenha" placeholder="Confirmar Senha" class="input" required>
+             <button type="submit" class="btn-principal-preto btn">Registrar-se</button>
         </form>
-        <button class="btn-principal-preto btn">Registrar-se</button>
+
         <div class="linha-com-texto">
             <hr class="linha-horizontal"> 
             <p>Ou</p>
