@@ -4,6 +4,11 @@ use Illuminate\Database\Eloquent\Model as Model;
 
 
 class Cadastro extends Controller{
+    public function index()
+    {
+        $this->view('cadastro/cadastro');
+    }
+
     public function criar($request){
         $usuario = new Usuario();
         $usuario->nome = $_POST['nome'];

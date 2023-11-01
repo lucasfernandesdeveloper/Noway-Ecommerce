@@ -4,7 +4,7 @@ use App\Controllers\UsuarioController;
 
 class Home extends Controller
 {
-    public function index(string $name = '')
+    public function index()
     {
        /* $user = $this->model('Usuario');
         $user->name = $name;

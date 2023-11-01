@@ -8,14 +8,12 @@
 }
 
 .logo img{
-    width: 100;
-    margin-left: 10px;
+    width: 8rem;
+    margin-bottom: 1rem;
 }
 
-.titulo h3 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+.titulo{
+    margin-bottom: 1rem;
 }
 
 body{
@@ -23,41 +21,39 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-
-.form{
+.form-section{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
 }
 
-.formulario{
+form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 70vw;
 }
 
-.input{
-    width: 100%;
-    max-width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    padding: 10px;
-    border: 1px solid rgb(120, 120, 120);
-    outline: 0;
-    margin: 4px 0;
+.input-group{
+    display: none;
 }
 
-.input:focus{
-    border: 1px solid red;
+
+.input-branco{
+    margin: 8px 0px;
 }
 
-.input:valid{
+.input-branco:focus{
+    border: 1px solid black;
+}
+
+.input-branco:valid{
     border: 1px solid black;
 }
 
@@ -65,44 +61,34 @@ body{
    color: rgb(150, 150, 150);
 }
 
-.input:not(:placeholder-shown){
+.input-branco:not(:placeholder-shown){
     color: black;
 }
 
-.ficha{
-    display: flex;
-    margin-bottom: 8px;
-    line-height: 80%;
-}
-
-.btn-principal-preto{
-    max-width: 300px;
+.btn-preto{
     width: 100%;
     height: 40px;
-    border-radius: 5px;
     margin-bottom: 10px;
 }
 
-.linha-com-texto {
+.linha{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 5px;  
     margin-bottom: 10px; 
 }
 
-.linha-com-texto .linha-horizontal {
+.linha hr{
     flex-grow: 1;
     border: none;
     height: 1px;
     background-color: gray;
-    width: 8vh;
-    margin: 10px;
+    width: 16vh;
+    margin: 10px 0;
 }
 
-.google{
+.btn-google{
     width: 100%;
-    max-width: 300px;
     height: 40px;
     background-color: white;
     color: black;
@@ -116,7 +102,7 @@ body{
     padding: 10px 20px;
 }
 
-.google img{
+.btn-google img{
     width: 25px;
     margin-right: 15px;
 }
@@ -132,12 +118,53 @@ body{
     color: rgba(34, 34, 255, 0.692);
 }
 
-@media (min-width: 768px){
-    .cadastro{
+@media ((min-width: 768px) and (max-width: 992px)){
+    .cadastro-section{
         display: flex;
         box-shadow: 0px 0px 14px 14px rgba(224, 224, 224, 0.532);
         border-radius: 16px;
         overflow: hidden;
+    }
+
+    .form-section{
+        width: 70vw;
+        padding: 2rem;
+    }
+
+    form{
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .cadastro-section{
+        display: flex;
+        box-shadow: 0px 0px 14px 14px rgba(224, 224, 224, 0.532);
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .form-section{
+        width: 90vw;
+        height: 80vh;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .logo img{
+        width: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .titulo{
+        margin-bottom: 0.5rem;
+    }
+
+    form{
+        width: 40%;
+        margin: 0 80px;
     }
 
     .img-cadastro{
@@ -145,15 +172,20 @@ body{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 550px;
+        width: 60%;
+        height: 100%;
     }
 
-    .input-flex{
-        max-width: 100%;
+    .input-sm{
+        display: none;
+    }
+
+    .input-group{
         display: flex;
     }
 
-    .input-flex > input:first-child{
+    .input-group > input:nth-child(1){
         margin-right: 8px;
     }
+
 }
