@@ -20,8 +20,8 @@
             <div class="titulo">
                 <h4>Criar uma conta</h3>
             </div>
-                <input type="email" placeholder="E-mail" class="input-branco" required>
-                <input type="password" placeholder="Senha" class="input-branco" required>
+                <input type="email" placeholder="E-mail" class="input-branco" name="email" required>
+                <input type="password" placeholder="Senha" class="input-branco" name="senha" required>
                 <button type="submit" class="btn-preto">Entrar</button>
                 <div class="linha">
                     <hr> 

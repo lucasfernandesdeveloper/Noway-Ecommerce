@@ -40,11 +40,6 @@ form{
     width: 70vw;
 }
 
-.input-group{
-    display: none;
-}
-
-
 .input-branco{
     margin: 8px 0px;
 }
@@ -69,6 +64,15 @@ form{
     width: 100%;
     height: 40px;
     margin-bottom: 10px;
+}
+
+
+.input-group{
+    width: 100%;
+}
+
+.input-group > input:nth-child(1){
+    margin-right: 0px;
 }
 
 .linha{
@@ -176,12 +180,8 @@ form{
         height: 100%;
     }
 
-    .input-sm{
-        display: none;
-    }
-
     .input-group{
-        display: flex;
+    display: flex;
     }
 
     .input-group > input:nth-child(1){
