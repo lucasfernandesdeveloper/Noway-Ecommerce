@@ -28,3 +28,7 @@
   border: 1px solid rgb(120, 120, 120);
   outline: 0;
 }
+
+.btn{
+  cursor: pointer;
+}

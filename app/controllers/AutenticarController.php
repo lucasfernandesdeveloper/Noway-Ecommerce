@@ -3,13 +3,13 @@ use App\Models\Usuario;
 use Illuminate\Database\Eloquent\Model as Model;
 
 
-class Cadastro extends Controller{
+class Autenticar extends Controller{
     public function index()
     {
-        $this->view('cadastro/cadastro');
+        $this->view('autenticar/login');
     }
 
-    public function criar($request){
+    public function cadastro($request){
         $usuario = new Usuario();
         $usuario->nome = $_POST['nome'];
         $usuario->email = $_POST['email'];
@@ -22,8 +22,12 @@ class Cadastro extends Controller{
         if (isset($usuario)){
             $this->view('home/index');
         } else {
-            $this->view('cadastro/criar');
+            $this->view('autenticar/cadastro');
         }
+    }
+
+    public function logar(){
+
     }
 }
 

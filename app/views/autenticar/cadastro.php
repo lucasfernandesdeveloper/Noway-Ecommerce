@@ -44,21 +44,21 @@
                 </select>
                 </div>
                 <div class="input-group">
-                <input type="password" id="Senha" name="senha" placeholder="Senha" class="input-branco" required>
+                <input type="password" id="Senha" name="senha" placeholder="Senha" class="input-branco btn" required>
                 <input type="password" id="Confirmarsenha" placeholder="Confirmar Senha" class="input-branco" required>
                 </div>
-                <input type="password" id="Senha" name="senha" placeholder="Senha" class="input-branco input-sm" required>
-                <input type="password" id="Confirmarsenha" placeholder="Confirmar Senha" class="input-branco input-sm" required>
-                <button type="submit" class="btn-preto">Registrar-se</button>
+                <input type="password" id="Senha" name="senha" placeholder="Senha" class="input-branco input-sm btn" required>
+                <input type="password" id="Confirmarsenha" placeholder="Confirmar Senha" class="input-branco input-sm btn" required>
+                <button type="submit" class="btn-preto btn">Registrar-se</button>
                 <div class="linha">
                     <hr> 
                     <p>ou</p>
                     <hr> 
-                    </div>
-                    <button class="btn-google">
-                        <img src="../img/cadastro/icon-google.webp">
-                        <p>Entrar com o Google</p>
-                    </button>
+                </div>
+                <button class="btn btn-google">
+                    <img src="../img/cadastro/icon-google.webp">
+                    <p>Entrar com o Google</p>
+                </button>
                     <p class="container-link">Já tem uma conta? <a href="tela_login.html"> Entrar</a></p>
             </form>
         </div>
