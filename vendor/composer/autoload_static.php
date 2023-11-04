@@ -52,6 +52,10 @@ class ComposerStaticInit25641be00fe44a03f91cfe999ded87ab
         array (
             'Brick\\Math\\' => 11,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -118,6 +122,10 @@ class ComposerStaticInit25641be00fe44a03f91cfe999ded87ab
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
     );
 
     public static $classMap = array (
@@ -126,7 +134,6 @@ class ComposerStaticInit25641be00fe44a03f91cfe999ded87ab
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
-        'User' => __DIR__ . '/../..' . '/app/models/User.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
 

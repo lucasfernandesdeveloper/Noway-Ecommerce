@@ -1,21 +1,27 @@
 <?php
 
-
+use App\Controllers\UsuarioController; 
 
 class Home extends Controller
 {
-    public function index(string $name = '')
+    public function index()
     {
-        $user = $this->model('User');
+       /* $user = $this->model('Usuario');
         $user->name = $name;
 
-        $this->view('home/index', ['name' => $user->name]);
+        $this->view('home/index', ['name' => $user->name]);*/
+        $this->view('home/index');
     }
 
-    public function create($username = '', $email = ''){
-        User::create([
-            'username' => $username,
-            'email' => $email
-        ]) ;
+    public function cadastro()
+    {
+       /* $user = $this->model('Usuario');
+        $user->name = $name;
+
+        $this->view('home/index', ['name' => $user->name]);*/
+        $this->view('cadastro/cadastro');
     }
+
+
+
 }

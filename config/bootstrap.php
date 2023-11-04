@@ -1,4 +1,5 @@
 <?php
+/* ---Este é o arquivo de configuração e conexão com o banco de dados--- */
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
@@ -16,4 +17,5 @@ $capsule->addConnection([
 
 ]);
 
+$capsule->setAsGlobal();
 $capsule->bootEloquent();
