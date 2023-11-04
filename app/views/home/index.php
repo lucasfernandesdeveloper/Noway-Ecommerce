@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="autenticar/login">Fazer Login</a>
+    <a href="autenticar/cadastro">Cadastrar-se</a>
      <?php echo $data['usuario']; ?>
 
     <!--Cards de Item-->

@@ -22,6 +22,14 @@ class Home extends Controller
         $this->view('cadastro/cadastro');
     }
 
+    public function header()
+    {
+       /* $user = $this->model('Usuario');
+        $user->name = $name;
+
+        $this->view('home/index', ['name' => $user->name]);*/
+        $this->view('componentes/header');
+    }
 
 
 }
