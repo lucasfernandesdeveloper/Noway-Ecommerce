@@ -22,7 +22,7 @@
   --cor-terciaria-branco: rgba(255, 255, 255, 0.1);
 
   /*Fontes*/
-    --fonte-principal: 'inter';
+    --fonte-principal: 'inter', sans-serif;
 }
 
 .btn-principal-preto{
