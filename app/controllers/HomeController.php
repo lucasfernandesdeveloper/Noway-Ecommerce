@@ -4,12 +4,10 @@ use App\Controllers\UsuarioController;
 
 class Home extends Controller
 {
-    public function index()
+    public function index($param)
     {
-       /* $user = $this->model('Usuario');
-        $user->name = $name;
 
-        $this->view('home/index', ['name' => $user->name]);*/
+        $this->view('home/index', ['name' => $param[0]]);
         $this->view('home/index');
     }
 

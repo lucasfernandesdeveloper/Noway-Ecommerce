@@ -13,7 +13,7 @@
 <body>
     <a href="autenticar/login">Fazer Login</a>
     <a href="autenticar/cadastro">Cadastrar-se</a>
-     <?php echo $data['usuario']; ?>
+     <?php echo 'Olá eu sou o ' . $data['name']; ?>
 
     <!--Cards de Item-->
     <div class="cards">
