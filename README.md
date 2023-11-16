@@ -1,5 +1,5 @@
 ﻿# Noway-Ecommerce
-O Noway é um **sistema de ecommerce** completo, contendo todas as funcionalidades necessárias para a venda e compra de produtos. Ele foi desenvolvido com foco no **bom design** e na **experiência do usuário**. Para conhecer mais sobre este sistema e como utiliza-lo acesse a aba ["wiki"](Noway-Ecommerce/wiki).
+O Noway é um **sistema de ecommerce** completo, contendo todas as funcionalidades necessárias para a venda e compra de produtos. Ele foi desenvolvido com foco no **bom design** e na **experiência do usuário**. Para conhecer mais sobre este sistema e como utiliza-lo acesse a aba ["wiki"](/wiki).
 
 ## Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
