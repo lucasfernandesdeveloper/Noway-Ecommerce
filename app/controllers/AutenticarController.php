@@ -2,7 +2,6 @@
 use App\Models\Usuario;
 use Illuminate\Database\Eloquent\Model as Model;
 
-
 class Autenticar extends Controller{
     public function index()
     {

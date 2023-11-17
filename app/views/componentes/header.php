@@ -57,5 +57,3 @@
     
 
     <script src="../../../public/js/nav-responsivo.js"></script>
-</body>
-</html>    

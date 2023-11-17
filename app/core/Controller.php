@@ -13,4 +13,8 @@ class Controller
     {
         require_once '../app/views/' . $view . '.php';
     }
+
+    public function include($include){
+        include('../app/views/componentes/' .$include . '.php');
+    }
 }

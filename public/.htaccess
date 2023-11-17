@@ -1,4 +1,4 @@
-Options -MultiViews
+Options -MultiViews -Indexes
 RewriteEngine On
 RewriteBase /noway-ecommerce/public
 RewriteCond %{REQUEST_FILENAME} !-d

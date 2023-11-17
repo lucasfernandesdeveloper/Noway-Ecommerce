@@ -151,7 +151,7 @@ form{
 
     .form-section{
         width: 90vw;
-        height: 80vh;
+        height: 90vh;
         flex-direction: row;
         justify-content: space-between;
         overflow: hidden;
