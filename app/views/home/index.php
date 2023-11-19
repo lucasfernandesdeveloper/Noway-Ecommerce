@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <?php
-require_once('../app/controllers/ComponenteController.php');
-$class = new Componente; 
-$class->header();
+$dado['header'];
 ?>
     <a href="autenticar/login">Fazer Login</a>
     <a href="autenticar/cadastro">Cadastrar-se</a>
-    <!--      <?php echo 'Olá eu sou o ' . $data['name']; ?> -->
+    <!--      <?php echo 'Olá eu sou o ' . $dado['name']; ?> -->
 
 
     <!--Cards de Item-->

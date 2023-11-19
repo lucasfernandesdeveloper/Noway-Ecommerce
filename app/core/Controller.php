@@ -9,12 +9,12 @@ class Controller
         return new $model();
     }
 
-    public function view($view, $data = [])
+    public function view($view, $dado = [])
     {
         require_once '../app/views/' . $view . '.php';
     }
 
-    public function include($include){
-        include('../app/views/componentes/' .$include . '.php');
+    public function componente($include){
+        include('../app/views/componentes/' .$include. '.php');
     }
 }

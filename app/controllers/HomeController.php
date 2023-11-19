@@ -6,9 +6,10 @@ class Home extends Controller
 {
     public function index($param)
     {
+        $header = $this->componente('header');
 
         /*$this->view('home/index', ['name' => $param[0]]);*/
-        $this->view('home/index');
+        $this->view('home/index', ['header' => $header]);
     }
 
     public function cadastro()
