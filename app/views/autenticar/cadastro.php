@@ -54,6 +54,6 @@
             </form>
         </div>
     </div>
-    <script src="validacao.js"></script>
+    <script src="cadastro.js"></script>
 </body>
 </html>
