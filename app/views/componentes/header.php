@@ -44,4 +44,4 @@
 
     
 
-    <script src="../../../public/js/nav-responsivo.js"></script>
+    <script src="../public/js/nav-responsivo.js"></script>

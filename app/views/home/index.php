@@ -1,12 +1,6 @@
-<!DOCTYPE html>
 <?php
 $dado['header'];
 ?>
-    <a href="autenticar/login">Fazer Login</a>
-    <a href="autenticar/cadastro">Cadastrar-se</a>
-    <!--      <?php echo 'Olá eu sou o ' . $dado['name']; ?> -->
-
-
     <!--Cards de Item-->
     <div class="cards">
         <div class="card">
@@ -19,6 +13,8 @@ $dado['header'];
             </div>
         </div>
     </div>
-    
+    <a href="autenticar/login">Fazer Login</a>
+    <a href="autenticar/cadastro">Cadastrar-se</a>
+    <!--      <?php echo 'Olá eu sou o ' . $dado['name']; ?> -->
 </body>
 </html>
