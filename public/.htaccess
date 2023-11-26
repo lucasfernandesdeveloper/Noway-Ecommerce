@@ -1,6 +1,7 @@
 Options -MultiViews
 RewriteEngine On
 RewriteBase /noway-ecommerce/public
+RewriteRule ^$ public/ [L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
